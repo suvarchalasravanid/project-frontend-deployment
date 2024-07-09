@@ -1,0 +1,149 @@
+.auth-form {
+    width: 300px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.auth-form h2 {
+    margin-top: 0;
+}
+
+.auth-form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.auth-form button {
+    width: 100%;
+    padding: 10px;
+    background-color:  #6f42c1;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.message {
+    margin-top: 10px;
+    color: green;
+}
+
+.navbar{
+    background-color: #5f249f;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: inherit;
+    color:white;
+}
+
+.nav-link,.navbar-brand  :hover{
+    color:white;
+}
+
+.navbar-brand{
+    color:white;
+}
+
+button{
+    background-color:  #6f42c1;
+    color: white;
+}
+button.btn{
+    background-color: #6f42c1;
+    padding: 5px 15px;
+    border-radius: 0px;
+}
+
+.auth-form button:hover {
+    background-color: #5f249f;
+}
+button :hover{
+    background-color: #5f249f;
+    color: white;
+}
+button.btn :hover{
+    background-color: #5f249f;
+    padding: 5px 15px; 
+    border-radius: 0px;
+}
+
+button.right{
+    float: right;
+    margin-right: 80px;
+     margin-top: 1px; 
+     /* position: absolute; */
+} 
+
+.picture{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    width: 100%; /* Optional: Ensure the container takes full width */
+}
+
+h1.display-5{
+    margin-left: 590px;
+}
+button.logout{
+    float:right;
+    margin-left: auto;
+    margin-right: 30px;
+    padding: 5px 15px;
+}
+
+div.buttons button{
+    margin-right: 25px;
+    padding: 7px 18px;
+    border-radius: 5px;
+    align-items: center;
+}
+div.buttons{
+    margin-left: 560px;
+}
+
+button.logout :hover{
+    background-color: #5f249f;
+}
+
+div.buttons button{
+    background-color: #5f249f;
+}
+
+.about{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    object-fit: cover;
+    z-index: -1;
+
+}
+.sign{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    object-fit: cover;
+    z-index: -1;
+}
